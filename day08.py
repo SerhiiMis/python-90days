@@ -30,3 +30,31 @@ def efficiency(units, scrap):
     return (good_units / units) * 100
 
 print("Efficiency:", efficiency(100, 5), "%")       
+
+def square(x):
+    return x * x
+
+print("Square of 6:", square(6))
+
+
+def is_even(n):
+    if n % 2 == 0:
+        return True
+    
+print("Is 4 even?", is_even(4))
+
+
+def machine_info(id, type):
+    print(f"Machine ID: {id}, Type: {type}")
+
+machine_info(101, "Lathe")
+
+def multiply(a, b=2):
+    return a * b
+
+print("Multiply 5 by default:", multiply(5))
+
+def average(numbers):
+    return sum(numbers) / len(numbers)
+
+print("Average:", average([10, 20, 30, 40]))
