@@ -1,0 +1,6 @@
+The machine online
+Production started
+Production stopped
+Error 
+Production started
+Production canceled
