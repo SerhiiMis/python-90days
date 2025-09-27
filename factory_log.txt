@@ -1,0 +1,3 @@
+Start shift
+Machine 1 error
+End shift

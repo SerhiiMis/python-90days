@@ -1,0 +1,3 @@
+Production started
+Machine A online
+Machine B online
