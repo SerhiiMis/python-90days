@@ -4,3 +4,7 @@ Production stopped
 Error 
 Production started
 Production canceled
+2025-09-27 20:17:21 - Shift started
+2025-09-27 20:17:34 - Machine 3 maintenance
+2025-09-27 20:17:43 - Machine 1 error
+2025-09-27 20:17:50 - Shift ended

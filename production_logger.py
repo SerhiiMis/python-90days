@@ -1,6 +1,9 @@
+from datetime import datetime
+
 def log_event(event):
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     with open("production_log.txt", "a") as f:
-        f.write(event + "\n")
+        f.write(f"{timestamp} - {event}\n")
 
 def read_log():
     with open("production_log.txt", "r") as f:
@@ -23,4 +26,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-    
