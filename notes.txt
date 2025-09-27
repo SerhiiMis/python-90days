@@ -1,0 +1,3 @@
+I have learned how to write to a file
+I have learned how to read from a file
+I have learned how to append to a file
