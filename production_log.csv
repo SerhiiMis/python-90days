@@ -2,3 +2,6 @@ Timestamp,Event
 2025-09-27 20:34:27,Operator logged in
 2025-09-27 20:34:38,Machine 2 stopped
 2025-09-27 20:34:50,Operator logged out
+2025-09-29 18:57:33,General,
+2025-09-29 18:57:41,2,start
+2025-09-29 18:57:48,exit,stop
