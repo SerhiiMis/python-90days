@@ -1,0 +1,1 @@
+CREATE DATABASE automotive_data;
