@@ -15,3 +15,20 @@ print(f"Updated status: {component_data['quality_status']}")
 
 component_data["inspector_id"] = 105
 print(f"Inspector ID added: {component_data['inspector_id']}")
+
+print("\n--- Component Details ---")
+for key, value in component_data.items():
+    print(f"{key.replace('_', ' ').title()}: {value}")
+
+def get_station_label(station_number):
+    """Returns the descriptive name for an assembly station number."""
+    if station_number == 1:
+        return "Chassis Build"
+    elif station_number == 4:
+        return "Brake Installation"
+    else:
+        return "General Assembly"
+
+station = component_data["assembly_station"]
+label = get_station_label(station)
+print(f"\nPart is at station {station}, which is the: {label}")
